@@ -1,0 +1,106 @@
+--- 
+title: "Doing Meta-Analysis in R"
+subtitle: "A Hands-on Guide"
+author: 
+- Mathias Harrer 
+- Pim Cuijpers
+- Toshi A. Furukawa
+- David D. Ebert
+github-repo: "MathiasHarrer/Doing-Meta-Analysis-in-R"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    config: 
+      toc:
+       collapse: section
+      search: yes
+      fontsettings:
+        size: 2
+    split_by: section
+    includes:
+      after_body: banner.html
+    df_print: paged
+    theme: !expr bslib::bs_theme()
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+twitter-handle: MathiasHarrer
+description: "This is a guide on how to conduct Meta-Analyses in R."
+favicon: "favicon.ico"
+---
+
+
+
+# Welcome! {-}
+
+---
+
+<a href="https://www.routledge.com/Doing-Meta-Analysis-with-R-A-Hands-On-Guide/Harrer-Cuijpers-Furukawa-Ebert/p/book/9780367610074" target="_blank"><img src="images/cover.png" width="250" align="right" alt="" class="cover" /></a> Welcome to the online version of **"Doing Meta-Analysis with R: A Hands-On Guide"**. 
+
+This book serves as an accessible introduction into how meta-analyses can be conducted in _R_. Essential steps for meta-analysis are covered, including pooling of outcome measures, forest plots, heterogeneity diagnostics, subgroup analyses, meta-regression, methods to control for publication bias, risk of bias assessments and plotting tools. 
+
+Advanced, but highly relevant topics such as network meta-analysis, multi-/three-level meta-analyses, Bayesian meta-analysis approaches, and SEM meta-analysis are also covered. 
+
+The programming and statistical background covered in the book are kept at a **non-expert level**. A **print version** of this book has been published with [Chapman & Hall/CRC Press](https://www.routledge.com/Doing-Meta-Analysis-with-R-A-Hands-On-Guide/Harrer-Cuijpers-Furukawa-Ebert/p/book/9780367610074) (Taylor & Francis).
+
+
+<br></br>
+
+## Open Source Repository {-}
+
+---
+
+This book has been built using [**{rmarkdown}**](https://rmarkdown.rstudio.com/docs/) and [**{bookdown}**](https://bookdown.org/). Formulas are rendered using [MathJax](http://docs.mathjax.org/en/latest/index.html). All materials and source code we used to compile the guide can be found on **GitHub**. You are free to fork, share and reuse contents. However, the repository is intended to be mainly "read-only"; PRs will generally not be considered (see section below & preface for ways to contact us).   
+
+[![GitHub followers](https://img.shields.io/badge/View Repository-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MathiasHarrer/Doing-Meta-Analysis-in-R)
+
+
+
+<br></br>
+
+## Contributing {-}
+
+---
+
+This guide is an open source project, and we owe special thanks to our expert contributors who provided additional content in some of the sections of this guide.
+
+* [**Luke A. McGuinness**](https://twitter.com/mcguinlu), University of Bristol: Chapter 15, Risk of Bias Plots.
+
+Want to contribute to this guide yourself? Feel free to send **Mathias** (mathias.harrer@fau.de) an E-mail and tell us about your proposed additions.
+
+<br></br>
+
+## Citing this Guide {-}
+
+---
+
+The suggested citation is:
+
+```{block, type='boxempty'}
+Harrer, M., Cuijpers, P., Furukawa, T.A., & Ebert, D.D. (2021). _Doing Meta-Analysis with R: A Hands-On Guide_. Boca Raton, FL and London: Chapman & Hall/CRC Press. ISBN 978-0-367-61007-4.
+```
+
+Download the reference as [BibTeX](https://www.protectlab.org/meta-analysis-in-r/data/citation.bib) or [.ris](https://www.protectlab.org/meta-analysis-in-r/data/citation.ris).
+
+
+<br></br>
+
+
+## Cite the Packages {-}
+
+---
+
+In this guide, we present and use various _R_ packages. The reason why all of us can use these packages for free is because experts all around the world have devoted enormous time and effort to their development, typically without pay. If you use some of the packages mentioned in this book for your own meta-analysis, we strongly encourage you to also cite them in your report. 
+
+In this guide, every time a new package is introduced, we also provide the reference through which it can be cited. It is also possible to run `citation("package")` to retrieve the preferred reference. Thanks!
+
+
+<br></br>
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
