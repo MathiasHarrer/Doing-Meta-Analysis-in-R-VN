@@ -1,4 +1,4 @@
-# Publication Bias {#pub-bias}
+# Sai số xuất bản {#pub-bias}
 
 ---
 

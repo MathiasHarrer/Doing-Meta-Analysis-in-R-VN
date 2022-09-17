@@ -1,4 +1,4 @@
-# Discovering R {#discovering-R}
+# Khám phá R {#discovering-R}
 
 ---
 
@@ -19,7 +19,7 @@ Whether you are working in academia or at a company, the things you can do in _R
 
 <br></br>
 
-## Installing _R_ and R Studio {#install-R}
+## Cài đặt _R_ và R Studio {#install-R}
 
 ---
 
@@ -184,7 +184,7 @@ When writing this book and developing the package, we made sure that everyone ca
 
 <br></br>
 
-## Data Preparation & Import {#data-prep-R}
+## Chuẩn bị & Nhập dữ liệu {#data-prep-R}
 
 ---
 

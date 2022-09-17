@@ -1,4 +1,4 @@
-# Risk of Bias Plots {#risk-of-bias-plots}
+# Biểu đồ nguy cơ các sai số {#risk-of-bias-plots}
 
 **by Luke A. McGuinness**
 
@@ -20,7 +20,7 @@ n this chapter, we will describe how to create risk of bias plots in _R_, using 
 
 <br></br>
 
-## Introduction
+## Giới thiệu
 
 ---
 

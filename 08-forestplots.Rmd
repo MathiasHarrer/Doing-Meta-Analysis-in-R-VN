@@ -1,4 +1,4 @@
-# Forest Plots {#forest}
+# Biểu đồ cây {#forest}
 
 ---
 
@@ -96,7 +96,6 @@ forest.meta(m.gen,
 par(bg="#FFFEFA")
 forest(m.gen, 
        sortvar = TE,
-       predict = TRUE, 
        print.tau2 = FALSE,
        leftlabs = c("Author", "g", "SE"))
 ```
@@ -123,7 +122,6 @@ forest.meta(m.gen,
 par(bg="#FFFEFA")
 forest(m.gen, 
        sortvar = TE,
-       predict = TRUE, 
        print.tau2 = FALSE,
        leftcols = c("studlab", "TE", "seTE", "RiskOfBias"),
        leftlabs = c("Author", "g", "SE", "Risk of Bias"))

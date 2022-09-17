@@ -1,4 +1,4 @@
-# Preface {-}
+# Lời tựa {-}
 
 ---
 
@@ -11,18 +11,18 @@
 
 <br></br>
 
-<span class="firstcharacter">I</span>
-t is a trivial observation that our world is complex. Scientific research is no exception; in most research fields, we are often faced with a seemingly insurmountable body of previous research. Evidence from different studies can be conflicting, and it can be difficult to make sense out of various sources of information. 
+<span class="firstcharacter">L</span>
+ời trích dẫn trên cho thấy thế giới của chúng ta rất phức tạp. Nghiên cứu khoa học cũng không ngoại lệ; trong hầu hết các lĩnh vực nghiên cứu, chúng ta thường phải đối mặt với một cơ thể dường như không thể vượt qua của nghiên cứu trước đó. Bằng chứng từ các nghiên cứu khác nhau có thể mâu thuẫn với nhau và có thể khó hiểu từ các nguồn thông tin khác nhau. 
 
-**Evidence synthesis** methods therefore play a crucial role in many disciplines, for example the social sciences, medicine, biology, or econometrics. **Meta-analysis**, the statistical procedure used to combine results of various studies or analyses, has become an indispensable tool in many research areas. Meta-analyses can be of enormous importance, especially if they guide practical decision-making, or future research efforts. Many applied researchers therefore have some meta-analysis skills in their "statistical toolbox", while others want to learn how to perform them in their own research field. Meta-analysis has become so ubiquitous that many graduate and undergraduate students already learn how to perform meta-analyses as part of their curriculum -- sometimes with varying levels of enthusiasm. 
+Do đó, các phương pháp **tổng hợp bằng chứng** đóng một vai trò quan trọng trong nhiều ngành, ví dụ như khoa học xã hội, y học, sinh học hoặc kinh tế lượng. **Phân tích gộp**, một quy trình thống kê được sử dụng để kết hợp các kết quả của các nghiên cứu hoặc phân tích khác nhau, đã trở thành một công cụ không thể thiếu trong nhiều lĩnh vực nghiên cứu. Phân tích gộp có tầm quan trọng to lớn, đặc biệt nếu chúng giúp định hướng việc ra quyết định thực tế hoặc các nỗ lực nghiên cứu trong tương lai. Do đó, nhiều nhà nghiên cứu ứng dụng thường có kỹ năng phân tích gộp trong các "lựa chọn phân tích thống kê của mình", trong khi số khác muốn học cách thực hiện chúng trong lĩnh vực nghiên cứu của riêng họ. Phân tích gộp đã trở nên phổ biến đến mức nhiều sinh viên đại học và sau đại học đã học cách thực hiện phân tích gộp trong khóa luận của mình - với các mức độ chuyên sâu khác nhau. 
 
-The way meta-analyses can be performed, like statistical computing as a whole, has seen major shifts in the last decades. This has a lot to do with the rise of open source, collaborative statistical software, primarily in the form of the _R_ Statistical Programming Language and Environment. The _R_ ecosystem allows researchers and statisticians everywhere to build their own **packages**, and to make them available to everyone, for free. This has led to a spectacular rise in readily available statistical software for the _R_ language. While we are writing this, the [CRAN Task View](https://cran.r-project.org/web/views/MetaAnalysis.html) lists more than 130 packages dedicated to meta-analysis alone. 
+Cũng giống như các thuật toán thống kê nói chung, các phương pháp phân tích gộp đã có những thay đổi lớn trong những thập kỷ qua. Việc này là do sự gia tăng nhanh chóng của các phần mềm thống kê mã nguồn mở, điển hình là Ngôn ngữ lập trình _R_. Hệ sinh thái _R_ cho phép các nhà nghiên cứu và nhà thống kê ở khắp mọi nơi xây dựng các **packages** của riêng mình và cung cấp miễn phí cho cộng đồng. Điều này đã dẫn đến sự gia tăng đáng kể các package thống kê sẵn có cho ngôn ngữ _R_. Trong khi chúng tôi viết bài này, [Chế độ xem tác vụ của CRAN](https://cran.r-project.org/web/views/MetaAnalysis.html) đã liệt kê hơn 130 packages chỉ dành riêng cho mục đích phân tích gộp. 
 
-In _R_, you can do **anything** -- literally. It is a full programming language, so if you do not find a function for something you want to do, you can easily write it yourself. For meta-analyses, however, there is hardly any need to do this anymore. Just a small collection of _R_ packages already provide all the functionality you can find in current "state-of-the-art" meta-analysis programs -- for free. Even more so, there are many novel meta-analysis methods that can currently **only** be applied in _R_. In short: the _R_ environment gives researchers much more tools for their meta-analyses. In the best case, this allows us to draw more robust conclusions from our data, and thus better inform decision-making.
+Với _R_, bạn có thể làm **bất cứ điều gì** một cách đúng nghĩa. Do là một ngôn ngữ lập trình đầy đủ, vì vậy nếu bạn không tìm thấy một hàm nào đó mà bạn cần, bạn có thể dễ dàng tự viết nó. Tuy nhiên đối với phân tích gộp, hầu như bạn không cần phải làm điều này nữa. Chỉ một tập hợp nhỏ các packages trong _R_  đã cung cấp tất cả các chức năng mà bạn có thể tìm thấy trong các phần mềm phân tích gộp "xịn xò" , và nó miễn phí. Thậm chí hơn thế, có rất nhiều phương pháp phân tích gộp hiện mới chỉ có thể được áp dụng trong _R_. Tóm lại: môi trường _R_ cung cấp cho các nhà nghiên cứu nhiều công cụ hơn cho các phân tích gộp. Trong trường hợp tốt nhất, nó cho phép chúng ta đưa ra kết luận chắc chắn hơn từ dữ liệu của mình và do đó cung cấp thông tin tốt hơn cho việc ra quyết định.
 
-This raises the question why not everyone is using _R_ for meta-analyses. We think there are two main reasons: **convenience** and **anxiety** (and sometimes a mixture of both). Both reasons are very understandable. Most meta-analysts are applied researchers; not statisticians or programmers. The thought of learning an obscure and complicated-seeming programming language can act as a deterrent. The same is true for meta-analytic methods, with their special theoretical background, their myriad of analytic choices, and different statistics that need to be interpreted correctly. 
+Một số người đặt câu hỏi rằng tại sao không phải tất cả mọi người đều sử dụng _R_ cho các phân tích gộp. Chúng tôi nghĩ rằng có hai lý do chính: **sự tiện lợi** và **sự lo lắng** (và đôi khi là sự kết hợp của cả hai). Cả hai lý do đều rất dễ hiểu. Hầu hết những người thực hiện phân tích gộp là những nhà nghiên cứu ứng dụng; không phải nhà thống kê học hay lập trình viên. Ý nghĩ về việc học một ngôn ngữ lập trình khó hiểu và có vẻ phức tạp có thể đóng vai trò là một rào cản lớn. Điều này cũng đúng đối với các phương pháp phân tích gộp, với nền tảng lý thuyết đặc biệt của chúng, vô số lựa chọn phân tích và các số liệu thống kê khác nhau cần được diễn giải một cách chính xác. 
 
-With this guide, we want to show that many of these concerns are unfounded, and that learning how to do a meta-analysis in _R_ is worth the effort. We hope that the guide will help you to learn the skills needed to master your own meta-analysis project in _R_. We also hope that this guide will make it easier for you to not only learn **what** meta-analytic methods to apply when, but also **why** we apply them. Last but not least, we see this guide as an attempt to show you that meta-analysis methods and _R_ programming are not mere inconveniences, but a fascinating topic to explore.
+Với cuốn sách này, chúng tôi muốn chứng minh rằng nhiều lo ngại trong số này là không có cơ sở và việc học cách phân tích gộp bằng ngôn ngữ _R_ là rất đáng để bạn nỗ lực. Chúng tôi hy vọng rằng cuốn sách này sẽ giúp bạn học các kỹ năng cần thiết để làm chủ dự án phân tích gộp của riêng bạn trong _R_. Chúng tôi cũng hy vọng rằng cuốn sách này sẽ giúp bạn dễ dàng hơn trong việc hiểu khi nào cần sử dụng phương pháp phân tích gộp **gì**, và **lý do tại sao** chúng ta áp dụng chúng. Cuối cùng nhưng không kém phần quan trọng, chúng tôi coi cuốn sách này là một nỗ lực để cho bạn thấy rằng các phương pháp phân tích gộp và lập trình với _R_ sẽ không còn là sự bất tiện, mà trở thành một chủ đề hấp dẫn để khám phá.
 
 <br></br>
 
@@ -46,7 +46,7 @@ As it says in the title, our book focuses on the "doing" part of meta-analysis. 
 
 <br></br>
 
-## Topics Covered in the Book {-}
+## Những chủ đề được đề cập trong cuốn sách này {-}
 
 ---
 
@@ -77,7 +77,7 @@ Among other things, this guide will cover the following topics:
 
 <br></br>
 
-## How to Use This Book {-}
+## Cách sử dụng cuốn sách này {-}
 
 ---
 
@@ -180,7 +180,7 @@ This serif font is reserved for formulas, statistics, and other forms of mathema
 <br></br>
 
 
-## What to Do When You Are Stuck {-}
+## Làm gì khi bạn đang bế tắc {-}
 
 ---
 
@@ -190,7 +190,7 @@ If you are looking for something a little more practical than this motivational 
 
 <br></br>
 
-### Do Not Panic {-}
+### Đừng hoảng loạn {-}
 
 ---
 
@@ -226,7 +226,7 @@ StackOverflow, by the way, is primarily for questions on programming. If your qu
 
 <br></br>
 
-### Contact Us {-}
+### Liên hệ với chúng tôi {-}
 
 ---
 
@@ -234,7 +234,7 @@ If you have the feeling that your problem has something to do with this guide it
 
 <br></br>
 
-## Acknowledgments {-}
+## Lời cảm ơn {-}
 
 ---
 

@@ -1,6 +1,6 @@
 # (PART) Phân tích gộp với R {.unnumbered}
 
-# Effect Sizes {#effects}
+# Mức độ ảnh hưởng {#effects}
 
 ------------------------------------------------------------------------
 
@@ -8,7 +8,7 @@
 
 <br></br>
 
-[T]{.firstcharacter} rong chương đầu tiên, chúng ta đã có thể tự làm quen với vũ trụ *R* và học được một số công cụ hữu ích để nhập và thao tác với dữ liệu. ITrong phần thứ hai của cuốn sách, giờ đây chúng ta có thể áp dụng và mở rộng kiến thức *R* của mình trong khi tìm hiểu về các kỹ thuật thống kê cốt lõi được sử dụng trong phân tích gộp.
+[T]{.firstcharacter} rong chương đầu tiên, chúng ta đã có thể tự làm quen với vũ trụ *R* và học được một số công cụ hữu ích để nhập và thao tác với dữ liệu. Trong phần thứ hai của cuốn sách, giờ đây chúng ta có thể áp dụng và mở rộng kiến thức *R* của mình trong khi tìm hiểu về các kỹ thuật thống kê cốt lõi được sử dụng trong phân tích gộp.
 
 \index{Mean, Arithmetic}
 

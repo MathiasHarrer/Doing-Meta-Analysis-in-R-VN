@@ -1,4 +1,4 @@
-# Effect Size Calculation & Conversion {#es-calc}
+# Tính toán & Chuyển đổi mức độ ảnh hưởng {#es-calc}
 
 ---
 

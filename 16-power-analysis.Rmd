@@ -1,6 +1,6 @@
-# (PART) Helpful Tools {-}
+# (PART) Các công cụ hữu ích {-}
 
-# Power Analysis {#power}
+# Phân tích lực thống kê {#power}
 
 ---
 

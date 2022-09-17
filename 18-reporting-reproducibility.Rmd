@@ -1,4 +1,4 @@
-# Reporting & Reproducibility {#reporting-reproducibility}
+# Báo cáo & Tính tái lập {#reporting-reproducibility}
 
 ---
 

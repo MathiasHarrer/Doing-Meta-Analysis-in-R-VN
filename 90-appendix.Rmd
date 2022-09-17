@@ -1,8 +1,8 @@
-# (APPENDIX) Appendix {-}
+# (APPENDIX) Phụ lục {-}
 
 <br></br>
 
-# Questions & Answers {#qanda}
+# Hỏi & Đáp {#qanda}
 
 ---
 
@@ -417,7 +417,7 @@ ECDF stands for **empirical cumulative distribution function**. ECDFs based on t
 
 <br></br>
 
-# Effect Size Formulas {#formula}
+# Công thức tính mức độ ảnh hưởng {#formula}
 
 ---
 
@@ -525,7 +525,7 @@ kableExtra::kable(dat, "html",
 
 <br></br>
 
-# List of Symbols {#symbollist}
+# Danh sách các ký hiệu {#symbollist}
 
 ---
 
@@ -572,7 +572,7 @@ kableExtra::kable(dat, "html",
 
 <br></br>
 
-# _R_ & Package Information {#attr}
+# _R_ & Thông tin các Package {#attr}
 
 ---
 
@@ -624,7 +624,7 @@ Figure \@ref(fig:eysenck): Sirswindon at [English Wikipedia](https://commons.wik
 
 <br></br>
 
-# Corrections & Remarks {#corrections}
+# Sửa chữa & Cập nhật {#corrections}
 
 ---
 

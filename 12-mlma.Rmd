@@ -1,6 +1,6 @@
-# (PART) Advanced Methods {-}
+# (PART) Các phân tích nâng cao {-}
 
-# "Multilevel" Meta-Analysis {#multilevel-ma}
+# Phân tích gộp "đa tầng" {#multilevel-ma}
 
 ---
 

@@ -1,6 +1,6 @@
-# (PART) Getting Started {-}
+# (PART) Bắt đầu {-}
 
-# Introduction {#intro}
+# Giới thiệu {#intro}
 
 ---
 
@@ -9,8 +9,8 @@
 
 <br></br>
 
-<span class="firstcharacter">S</span>
-cience is generally assumed to be a cumulative process. In their scientific endeavors, researchers build on the evidence compiled by generations of scientists who came before them. A famous quote by Isaac Newton stresses that if we want to see further, we can do so by standing on the "shoulders of giants". Many of us are fascinated by science **because** it is progressive, furthering our understanding of the world, and helping us to make better decisions. 
+<span class="firstcharacter">K</span>
+hoa học thường được coi là một quá trình tích lũy liên tục. In their scientific endeavors, researchers build on the evidence compiled by generations of scientists who came before them. A famous quote by Isaac Newton stresses that if we want to see further, we can do so by standing on the "shoulders of giants". Many of us are fascinated by science **because** it is progressive, furthering our understanding of the world, and helping us to make better decisions. 
 
 At least by the numbers alone, this sentiment may be justified. Never in history did we have access to more evidence in the form of published research articles than we do today. Petabytes of research findings are produced every day all around the world. In biomedicine alone, more than one million peer-reviewed articles are published each year [@bjork2008global]. 
 

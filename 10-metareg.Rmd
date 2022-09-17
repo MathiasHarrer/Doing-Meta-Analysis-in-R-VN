@@ -1,4 +1,4 @@
-# Meta-Regression {#metareg}
+# Siêu hồi quy {#metareg}
 
 ---
 

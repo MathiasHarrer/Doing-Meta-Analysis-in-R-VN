@@ -1,4 +1,4 @@
-# Bayesian Meta-Analysis {#bayesian-ma}
+# Phân tích gộp sử dụng cách tiếp cận Bayesian {#bayesian-ma}
 
 ---
 

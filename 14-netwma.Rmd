@@ -1,4 +1,4 @@
-# Network Meta-Analysis {#netwma}
+# Phân tích gộp mạng tương quan {#netwma}
 
 ---
 
@@ -6,36 +6,36 @@
 
 <br></br>
 
-<span class="firstcharacter">W</span>
-hen we perform meta-analyses of clinical trials or other types of intervention studies, we usually estimate the true effect size of **one** specific treatment. We include studies in which the same type of intervention was compared to similar control groups, for example a placebo. All else being equal, this allows to assess if a **specific** type of treatment is effective. 
+<span class="firstcharacter">K</span>
+hi chúng ta thực hiện phân tích gộp các thử nghiệm lâm sàng hoặc các loại nghiên cứu can thiệp khác, chúng ta thường ước tính mức độ ảnh hưởng thực sự của **một** phương pháp điều trị cụ thể. Chúng ta lựa chọn các nghiên cứu trong đó cùng một loại can thiệp được so sánh với các nhóm đối chứng tương tự, ví dụ giả dược. Tất cả những yêu tố khác là như nhau, điều này cho phép đánh giá xem một loại điều trị **cụ thể** có hiệu quả hay không. 
 
-Yet, in many research areas, there is not only one "definitive" type of treatment--there are several ones. Migraine, for example, can be treated with various kinds of medications, and non-pharmaceutical therapy options also exist. Especially in "matured" research fields, it is often less relevant to show that some kind of treatment is beneficial. Instead, we want to find out which treatment is the **most** effective for some specific indication. 
+Tuy nhiên, trong nhiều lĩnh vực nghiên cứu, có không chỉ "giới hạn" một phương pháp điều trị--mà có nhiều hơn một. Ví dụ, chứng đau nửa đầu có thể được điều trị bằng nhiều loại thuốc khác nhau và các lựa chọn liệu pháp không dùng thuốc cũng tồn tại. Đặc biệt là trong các lĩnh vực nghiên cứu "không còn mới" việc chỉ ra rằng một số hình thức điều trị là có lợi thường ít ý nghĩa. Thay vào đó, chúng ta muốn tìm ra phương pháp điều trị hiệu quả **nhất** đối với một số hoàn cảnh cụ thể. 
 
-This leads to new problems. To assess the comparative effectiveness of several treatments in a conventional meta-analysis, sufficient head-to-head comparisons between two treatments need to be available. Alas, this is often not the case. In many research fields, it is common to find that only few--if any--trials have compared the effects of two treatments  **directly**, in lieu of "weaker" control groups. This often means that traditional meta-analyses can not be used to establish solid evidence on the **relative** effectiveness of several treatments. 
+Điều này dẫn đến những vấn đề mới. Để đánh giá hiệu quả so sánh của một số phương pháp điều trị trong một phân tích gộp thông thường, cần có đủ các so sánh trực tiếp giữa hai phương pháp điều trị. Tuy nhiên, thực tế không phải lúc nào cũng vậy. Trong nhiều lĩnh vực nghiên cứu, người ta thường thấy rằng chỉ có rất ít các thử nghiệm so sánh **một cách trực tiếp** tác dụng của hai phương pháp điều trị, thay cho các nhóm đối chứng "yếu hơn". Điều này thường có nghĩa là các phân tích gộp truyền thống không thể được sử dụng để thiết lập bằng chứng chắc chắn về hiệu quả **tương đối** của một số phương pháp điều trị.
 
-However, while direct comparisons between two or more treatments may not exist, **indirect** evidence is typically available. Different treatments may have been evaluated in **separate** trials, but all of these trials may have used the **same** control group. For example, it is possible that two medications were never compared directly, but that the effect of both medications compared to a pill placebo has been studied extensively. 
+Tuy nhiên, trong khi việc so sánh trực tiếp giữa hai hoặc nhiều phương pháp điều trị có thể không tồn tại, các bằng chứng **gián tiếp** thường có sẵn. Các phương pháp điều trị khác nhau có thể đã được đánh giá trong các thử nghiệm **riêng lẻ**, nhưng tất cả các thử nghiệm này có thể đã sử dụng **cùng một** nhóm chứng. Ví dụ, có thể hai loại thuốc chưa bao giờ được so sánh trực tiếp, nhưng tác dụng của cả hai loại thuốc so với giả dược dạng viên đã được nghiên cứu rộng rãi. 
 
 \index{Mixed-Treatment Comparison Meta-Analysis}
 
-**Network meta-analysis** can be used to incorporate such indirect comparisons, and thus allows us to compare the effects of several interventions simultaneously [@dias2013evidence]. Network meta-analysis is also known as **mixed-treatment comparison meta-analysis** [@van2012automating]. This is because it integrates multiple direct and indirect treatment comparisons into one model, which can be formalized as a “network” of comparisons.
+**Phân tích gộp mạng tương quan (Network meta-analysis)** có thể được sử dụng để kết hợp các so sánh gián tiếp như vậy và do đó cho phép chúng ta so sánh tác động của một số biện pháp can thiệp một cách đồng thời [@dias2013evidence]. Phân tích gộp mạng tương quan còn được biết đến với tên **phân tích gộp so sánh nhiều phương phá điều trị (mixed-treatment comparison meta-analysis)** [@van2012automating]. Phương pháp này cho phép tích hợp nhiều so sánh điều trị trực tiếp và gián tiếp vào cùng một mô hình, có thể được cấu thành một “mạng lưới” so sánh.
 
 \index{Consistency}
 
-Network meta-analysis is a “hot” research topic. In the last decade, it has been increasingly picked up by applied researchers in the bio-medical field, and other disciplines. However, this method also comes with additional challenges and pitfalls, particularly with respect to heterogeneity and so-called **network inconsistency** [@salanti2014evaluating]. 
+Phân tích gộp mạng tương quan là một chủ đề nghiên cứu “hot”. Trong thập kỷ qua, nó ngày càng được các nhà nghiên cứu ứng dụng trong lĩnh vực y sinh học và các ngành khoa học khác đón nhận. Tuy nhiên, phương pháp này cũng đi kèm với những thách thức và cạm bẫy, đặc biệt liên quan đến tính không đồng nhất và sự **không nhất quán của mạng** [@salanti2014evaluating]. 
 
-Therefore, it is important to first discuss the core components and assumptions of network meta-analysis models. The underpinnings of network meta-analysis can be a little abstract at times. We will therefore go through the essential details in small steps, in order to get a better understanding of this method.
+Do đó, điều quan trọng trước tiên là phải thảo luận về các thành phần cốt lõi và các giả định của mô hình phân tích gộp mạng tương quan. Nền tảng của phân tích gộp mạng tương quan đôi khi có thể hơi trừu tượng. Do đó, chúng tôi sẽ đi qua các nội dung thiết yếu theo từng bước, để giúp bạn hiểu rõ hơn về phương pháp này.
 
 <br></br>
 
-## What Are Network Meta-Analyses? {#what-is-net-ma}
+## Phân tích gộp mạng tương quan là gì? {#what-is-net-ma}
 
 ---
 
-### Direct & Indirect Evidence {#direct-indirect-evidence}
+### Bằng chứng trực tiếp & gián tiếp {#direct-indirect-evidence}
 
 ---
 
-First, we have to understand what we mean by a "network" of treatments. Imagine that we have extracted data from some randomized controlled trial $i$, which compared the effect of treatment A to another condition B (e.g. a wait-list control group). We can illustrate this comparison graphically:
+Trước tiên, chúng ta cần phải hiểu thế nào là “mạng lưới” các phương pháp điều trị. Hãy tưởng tượng rằng chúng tôi đã trích xuất dữ liệu từ một số thử nghiệm ngẫu nhiên có đối chứng $i$, so sánh hiệu quả của phương pháp điều trị A với phương pháp B (ví dụ: nhóm kiểm soát danh sách chờ). Chúng ta có thể minh họa sự so sánh này bằng đồ thị:
 
 
 ```{r, message = F, out.width = '75%', echo = F, fig.align='center'}
@@ -45,9 +45,9 @@ knitr::include_graphics('images/graph1_col_sep.png')
 
 \index{Graph Theory}
 
-This visual representation of a treatment comparison is called a **graph**. Graphs are structures used to model how different objects relate to each other, and there is an entire sub-field of mathematics, **graph theory**, which is devoted to this topic. 
+Hình ảnh biểu diễn so sánh điều trị này được gọi là **đồ thị**. Đồ thị là các cấu trúc được sử dụng để mô hình hóa cách các đối tượng khác nhau liên hệ với nhau, trong đó có hẳn một hướng nghiên cứu trong toán học gọi là **lý thuyết đồ thị**, có liên quan chặt chẽ đến chủ đề này. 
 
-Our graph has two core components. The first one are two circles (so-called **nodes**), which represent the two conditions A and B in trial $i$. The second component is the line connecting these two nodes. This line is called an **edge**. The edge represents how A and B relate to each other. In our case, the interpretation of the line is quite easy. We can describe the relationship between A and B in terms of the effect size $\hat\theta_{i\text{,A,B}}$ we observe when we compare A and B. This effect size can be expressed as, for example, an SMD or odds ratio, depending on the outcome measure.
+Đồ thị của chúng ta có hai thành phần chính. Thứ đầu tiên là hai vòng tròn (được gọi là **nút**), which đại diện cho hai điều kiện A và B trong thử nghiệm $i$. Thành phần thứ hai là đường nối hai nút này, thường được gọi là **cạnh**. Cạnh biểu thị cách A và B liên quan với nhau. Trong trường hợp này, the việc phiên giải cạnh khá đơn giản. Chúng ta có thể mô tả mối quan hệ giữa A và B bằng mức độ ảnh hưởng $\hat\theta_{i\text{,A,B}}$ chúng ta quan sát được khi so sánh A và B. Mức độ ảnh hưởng này có thể được biểu thị dưới dạng như à SMD, hoặc tỷ số chênh (OR), tùy thuộc vào cách đầu ra được đo lường.
 
 Now, imagine that we have also obtained data from another study $j$. This trial also used the control condition B. But instead of administering A, this study used another treatment C. In study $j$, treatment C was also compared to B. We can add this information to our graph:
 

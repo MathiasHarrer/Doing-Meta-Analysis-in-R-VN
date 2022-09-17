@@ -1,4 +1,4 @@
-# Pooling Effect Sizes {#pooling-es}
+# "Gộp" mức độ ảnh hưởng {#pooling-es}
 
 ---
 

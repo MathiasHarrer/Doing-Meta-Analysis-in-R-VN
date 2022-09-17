@@ -1,4 +1,4 @@
-# Structural Equation Modeling Meta-Analysis {#sem}
+# Phân tích gộp mô hình hệ phương trình cấu trúc {#sem}
 
 ---
 
