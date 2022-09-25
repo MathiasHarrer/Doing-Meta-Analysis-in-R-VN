@@ -35,7 +35,7 @@ ggplot(pubmed, aes(x = Year, y = Count)) +
 
 ```
 
-In principle, this development should make us enthusiastic about the prospects of science. If science is cumulative, more published research equals more evidence. This should allow us to build more powerful theories, and to dismantle fallacies of the past. 
+Trong nguyên tắc, sự phát triển này làm cho chúng tôi nhiệt tình về khoa học. Nếu khoa học mang tính tích lũy, nhiều nghiên cứu được công bố hơn sẽ cung cấp nhiều bằng chứng hơn. Chính điều này cho phép ta xây dựng nhiều lập luận mạnh mẽ hơn và loại bỏ lối ngụy biện của quá khứ. 
 
 Yet, of course, it is not that easy. In a highly influential paper, John Ioannidis of Stanford criticized the notion that science is automatically cumulative and constantly improving. His article has the fitting title "Why Science Is Not Necessarily Self-Correcting" [@ioannidis2012science]. He argues that research fields can often exist in a state where an immense research output is produced on a particular topic or theory, but where fundamental fallacies remain unchallenged and are only perpetuated. 
 
