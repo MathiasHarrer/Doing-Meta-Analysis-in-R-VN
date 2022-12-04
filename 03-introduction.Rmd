@@ -89,22 +89,23 @@ Phân tích tổng hợp không chỉ phát minh bởi một người duy nhất
 
 Pearson, vào đầu thế kỷ 20, đã kết hợp những phát hiện về ảnh hưởng của việc tiêm chủng thương hàn trên khắp nước Anh để tính toán một ước tính [@shannon2016statistical]. Fisher, trong cuốn sách chuyên đề năm 1935 về thiết kế thí nghiệm, phương pháp tiếp cận được đề cập để phân tích dữ liệu từ nhiều nghiên cứu trong nghiên cứu nông nghiệp, và đã thừa nhận vấn đề mà kết quả nghiên cứu có thể thay đổi do vị trí và thời gian [@fisher19351he; @o2007historical]. 
 
-\index{Sự khác biệt trng bình được chuẩn hóa}
+\index{Sự khác biệt trung bình được chuẩn hóa}
 \index{Mô hình ngẫu nhiên-Tác động}
 \index{Lịch sử phân tích tổng hợp}
 
-“phân tích tổng hợp" và sự bắt đầu nổi lên của nó, tuy nhiên, có thể được truy trở lại một cuộc tranh chấp học thuật xảy ra giữa thế kỷ 20<sup>th</sup>. Năm 1952, nhà tâm lý học nổi tiếng người Anh Hans Juxrgen Eysenck đã xuất bản một bài báo trong đó ông tuyên bố rằng liệu pháp tâm lý (là phân tâm học Freudian) không có hiệu quả (Figure \@ref(fig:eysenck)). Nếu bệnh nhân khỏe hơn trong quá trình điều trị, đó là bởi vì tình trạng của họ có thể đã được cải thiện bởi những yếu tố không liên quan gì đến việc điều trị. Tệ hơn nữa, ông Eysenck cho rằng liệu pháp tâm lý thường sẽ cản trở bệnh nhân cải thiện sức khỏe hơn. 
+“Phân tích tổng hợp" và sự bắt đầu nổi lên của nó, tuy nhiên, có thể được truy trở lại một cuộc tranh chấp học thuật xảy ra giữa thế kỷ 20<sup>th</sup>. Năm 1952, nhà tâm lý học nổi tiếng người Anh Hans Juxrgen Eysenck đã xuất bản một bài báo trong đó ông tuyên bố rằng liệu pháp tâm lý (là phân tâm học Freudian) không có hiệu quả (Figure \@ref(fig:eysenck)). Nếu bệnh nhân khỏe hơn trong quá trình điều trị, đó là bởi vì tình trạng của họ có thể đã được cải thiện bởi những yếu tố không liên quan gì đến việc điều trị. Tệ hơn nữa, ông Eysenck cho rằng liệu pháp tâm lý thường sẽ cản trở bệnh nhân cải thiện sức khỏe hơn. 
 
-The reputation of psychotherapy took a big hit, and it did not recover until the late 1970s. During that time, Gene V. Glass developed a technique he termed "meta-analysis", which allowed to pool **Standardized Mean Differences**^[i.e., the difference in means between two groups, for example an intervention and control group, expressed in the units of the pooled standard deviation of both groups (see Chapter \@ref(s-md)).] across studies. The first extensive application of his technique was in an article published in the **American Psychologist**, written by Mary L. Smith and Glass himself [@smith1977meta]. In this large study, results from 375 studies with more than 4000 participants were combined in a meta-analysis. 
+Danh tiếng của liệu pháp tâm lý học đã trở nên nổi tiếng và điều đó đã không được phát hiện cho đến những năm 1970. Trong thời gian đó, Gene V. Glas đã phát triển một kỹ thuật mà ông gọi là "phân tích tổng hợp", cho phép tập hợp **Sự khác biệt trung bình được chuẩn hóa**^[tức là sự khác biệt về trung bình giữa hai nhóm, ví dụ như nhóm can thiệp và nhóm kiểm soát, được biểu thị bằng đơn vị độ lệch chuẩn của cả hai nhóm (xem chương \@ref(s-md)).]. tức là sự khác biệt về phương tiện giữa hai nhóm, ví dụ như nhóm can thiệp và nhóm kiểm soát, được biểu thị bằng đơn vị độ lệch chuẩn gộp của cả hai nhóm
+Ứng dụng rộng rãi đầu tiên của kỹ thuật này là trong một bài báo đăng trên tạp chí **American Psychologist**, được viết bởi chính Mary L. Smith và Glass [@smith1977meta]. Trong nghiên cứu lớn này, kết quả từ 375 nghiên cứu với hơn 4000 người tham gia đã được kết hợp trong một phân tích tổng hợp. 
 
-The study found that psychotherapies had a pooled effect of 0.68, which can be considered quite large. Glass' work had an immense impact because it provided quantitative evidence that Eysenck's verdict was wrong. Eysenck himself, however, was not convinced, calling the meta-analysis "an abandonment of scholarship" and "an exercise in mega-silliness" [@eysenck1978exercise].
+Nghiên cứu cho thấy các liệu pháp tâm lý có tác dụng chung là 0,68, có thể được coi là khá lớn. Công việc của Glass đã có một tác động to lớn bởi vì nó cung cấp bằng chứng định lượng rằng phán quyết của Eysenck là sai. Tuy nhiên, bản thân Eysenck không bị thuyết phục, gọi phân tích tổng hợp là "sự từ bỏ học thuật" và "bài tập về sự ngớ ngẩn lớn" [@eysenck1978exercise].
 
-(ref:eysenck) Hans Jürgen Eysenck ([_Sirswindon/CC BY-SA 3.0_](#attr)).
+(tham khảo:eysenck) Hans Jürgen Eysenck ([_Sirswindon/CC BY-SA 3.0_](#attr)).
 
 
 ```{r eysenck, fig.cap='(ref:eysenck)', fig.scap="Hans Jürgen Eysenck.",  out.width='35%', message = F, echo = F, fig.align='right'}
-library(OpenImageR)
-knitr::include_graphics('images/eysenck_col.jpg')
+library(OpenImageR)   # Gọi gói OpenImager
+knitr::include_graphics('images/eysenck_col.jpg')  # Xuất hình ảnh với tên eysenck_col
 ```
 
 
