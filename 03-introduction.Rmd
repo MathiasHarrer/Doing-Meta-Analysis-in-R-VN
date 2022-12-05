@@ -109,13 +109,13 @@ knitr::include_graphics('images/eysenck_col.jpg')  # Xuất hình ảnh với t�
 ```
 
 
-Today we know that Smith and Glass' study may have overestimated the effects of psychotherapy because it did not control for biases in the included studies [@cuijpers2019eysenck]. However, the primary finding that some psychotherapies are effective has been corroborated by countless other meta-analyses in the following decades. Eysenck's grim response could not change that meta-analysis soon became a commonly used method in various fields of study. 
+Ngày nay chúng ta biết rằng nghiên cứu Smith và Glass có thể đánh giá cao tác dụng của liệu pháp tâm lý trị liệu vì nó đã không kiểm soát thành kiến trong các nghiên cứu được đưa vào [@cuijpers2019eysenck]. Tuy nhiên, phát hiện cơ bản rằng một số liệu pháp tâm lý có hiệu quả đã được chứng thực bởi vô số phân tích dữ liệu khác trong những thập kỷ tiếp theo. Phản ứng của Eysenck không thể thay đổi phân tích tổng hợp đó sớm trở thành một phương pháp được sử dụng phổ biến trong các lĩnh vực nghiên cứu khác nhau. 
 
-The methodology behind meta-analysis has been continuously refined since that time. About the same time Glass developed his meta-analysis method, Hunter and Schmidt started crafting their own type of meta-analysis techniques putting emphasis on the correction of measurement artifacts [@schmidt1977development; @hunter2004methods]. 
+Phương pháp phân tích tổng hợp sau đó đã liên tục được chỉnh sửa kể từ thời điểm.  Cùng một thời gian phát triển phương pháp tổng hợp phân tích của mình, Hunter và Smith bắt đầu tạo ra loại ra kỹ thuật phân tích tổng hợp riêng của họ nhấn mạnh vào việc hiệu chỉnh của các hiện vật đo lường [@schmidt1977development; @hunter2004methods]. 
 
-Meta-analysis first found its way into medicine through the groundbreaking work of Peter Elwood and Archie Cochrane, among others, who used meta-analysis to show that aspirin has a small, but statistically and clinically relevant preventive effect on the recurrence of heart attacks [@peto1980aspirin; @elwood2006first; @o2007historical]. 
+Phân tích tổng hợp được đưa vào y học thông qua các công trình đột phá của Peter Elwood và Archie Corchrane, trong số những người khác, những người đã được sử dụng phân tích tổng hợp để chỉ ra rằng aspirin có tác dụng phòng ngừa nhỏ, nhưng về mặt thống kê và lâm sàng có liên quan đến sự hồi phục của các cơn đau tim [@peto1980aspirin; @elwood2006first; @o2007historical]. 
 
-In the mid-80s, Rebecca DerSimonian and Nan Laird introduced an approach to calculate random-effects meta-analyses (see Chapter \@ref(rem)) that has been in use to this day [@dersimonian1986meta]. Countless other innovations have helped to increase the applicability, robustness and versatility of meta-analytic methods in the last four decades.  
+Vào những năm 80, Rebecca DerSimonian and Nan Laird đã giới thiệu một cách tiếp cận để tính toán các phân tích tổng hợp ngẫu nhiên-ảnh hưởng (xem Chương \@ref(rem)) đã được sử dụng cho đến ngày nay [@dersimonian1986meta]. Vô số sáng kiến khác và đã giúp tăng tính ứng dụng, mạnh mẽ và tính linh hoạt của các phương pháp siêu phân tích trong bốn thập kỷ qua.  
 
 
 \index{Cochrane}
@@ -125,9 +125,9 @@ In the mid-80s, Rebecca DerSimonian and Nan Laird introduced an approach to calc
 
 
 ```{block2, type='boxinfo'}
-**The Cochrane and Campbell Collaboration**
+**Sự hợp tác Cochrane và Campbell**
 
-The [**Cochrane Collaboration**](https://www.cochrane.org/) (or simply **Cochrane**), founded in 1993 and named after Archie Cochrane, has played a crucial role in the development of applied meta-analysis. Cochrane is an international network of researchers, professionals, patients and other relevant stakeholders who "work together to produce credible, accessible health information that is free from commercial sponsorship and other conflicts of interest". 
+Hơp tác [**Cochrane**](https://www.cochrane.org/) (hoặc đơn giản **Cochrane**), đã được tìm thấy năm 1993 và sau đó lấy tên Archie Cochrane, đã đóng mọt vai trò quan trọng trong sự phát triển ứng dụng phân tích tổng hợp. Cochrane is an international network of researchers, professionals, patients and other relevant stakeholders who "work together to produce credible, accessible health information that is free from commercial sponsorship and other conflicts of interest". 
 
 Cochrane uses rigorous standards to synthesize evidence in the biomedical field. The institution has its headquarters in London, but also has local branches in several countries around the world. 
 
